@@ -26,6 +26,7 @@ namespace WindowServicePOC
             timer.Elapsed += new ElapsedEventHandler(OnElapsedTime);
             timer.Interval = 5000; //number in milisecinds  
             timer.Enabled = true;
+            // hello
         }
         protected override void OnStop()
         {
